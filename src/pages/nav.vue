@@ -1,7 +1,7 @@
 <template>
   <div>
      <Top></Top>
-     <div class="ou">
+     <div class="co">
    <div class="topbar">
    <router-link to="/nav/erdianshi">综合</router-link>
     <router-link to="/nav/erdianying">销量</router-link>
@@ -35,9 +35,18 @@
   }
 </script>
 <style>
-.ou{
-  margin-top: 1rem;
-}
+    .co{
+     /*main绝对定位，进行内部滚动*/
+      position: absolute;
+      /*top是头部的高度*/
+      top: 80px;
+      /*bottom是底部的高度*/
+      bottom: 30px;
+      /*使之可以滚动*/
+      overflow-y: scroll;
+      /*增加弹性滚动,解决滚动不流畅的问题*/
+      -webkit-overflow-scrolling: touch; 
+    }
    a{
        font-size: 0.16rem;
        flex: 1;

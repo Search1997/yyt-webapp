@@ -6,13 +6,13 @@
     <div class="lunbo">
 
     </div>
-     <!-- <router-link to="/buyphone">买手机</router-link> -->
+    
     <div class="item">
       <div v-for="(v,i) in arr" :key="i">
         <img :src="v.imgurl" />
         <br>
-        <span>{{v.title}}</span>
-      </div>
+         <span>{{v.title}}</span> 
+       </div> 
     </div>
      <div class="photo">
       <img src="../../static/home/d.jpg" alt="">
@@ -72,27 +72,38 @@
         }
       }
   }
+  
 </script>
 <style scoped>
-    .on{
-      margin-top: 0.83rem;
-      font-size: 0.18rem;
-    }
+     .on{
+      /*main绝对定位，进行内部滚动*/
+      position: absolute;
+      /*top是头部的高度*/
+      top: 80px;
+      /*bottom是底部的高度*/
+      /* bottom: 30px;
+      /*使之可以滚动*/
+      overflow-y: scroll;
+      /*增加弹性滚动,解决滚动不流畅的问题*/
+      -webkit-overflow-scrolling: touch;  
+    } 
     .item{
       width:100%;
-       display:flex; 
+      display:flex; 
       flex-direction: row;
       flex-wrap: wrap;
+      padding-left:0.1rem;
     }
     .item img{
-      width: 0.6rem;
-      height: 0.6rem;
+      width: 0.45rem;
+      height: 0.45rem;
+      padding: 0.03rem;
     }
     .item span{
-      font-size: 0.16rem;
+      font-size: 0.14rem;
     }
     .item>div{
-      font-size: 0px;
+      font-size: 0.16rem;
       width:20%;
     }
     .lunbo{
@@ -103,13 +114,14 @@
      .photo{
      width: 100%;
      height: 0.7rem;
-     padding-top: 0.03rem;
    }
    .photo img{
      width: 100%;
-     height: 0.67rem;
+     height: 70px;
+     padding-top: -0.03rem; 
    }
    .xiang{
+     margin-top: 0.4rem;
      width: 100%;
      height: 0.5rem;
      background-color: aliceblue;
