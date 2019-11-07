@@ -4,8 +4,7 @@
    <div class="co">
      <div class="items">
       <div class="con" v-for="(v,i) in arr" :key="i">
-        <img :src="v.imgurl" />
-        <!-- <br> -->
+        <img :src="v.imgurl" />       
          <span>{{v.title}}</span> 
        </div> 
     </div>

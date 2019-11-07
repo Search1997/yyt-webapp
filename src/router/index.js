@@ -4,11 +4,15 @@ import Home from '../pages/home'
 import Discounts from '../pages/discounts'
 import My from '../pages/my'
 import Nav from '../pages/nav'
-import Erdianshi from '../pages/erdianshi'
-import Erdianying from '../pages/Erdianying'
-import Erzongyi from '../pages/Erzongyi'
-import Ershaixuan from '../pages/Ershaixuan'
+import Erdianshi from '../components/erpage/erdianshi'
+import Erdianying from '../components/erpage/Erdianying'
+import Erzongyi from '../components/erpage/Erzongyi'
+import Ershaixuan from '../components/erpage/Ershaixuan'
 import Buyphone from '../pages/Buyphone'
+import Zonghe from '../components/elect/zonghe'
+import Shaixuan from '../components/elect/shaixuan'
+import Jiage from '../components/elect/jiage'
+import Xiaoliang from '../components/elect/xiaoliang'
 Vue.use(Router)
 
 export default new Router({
@@ -16,22 +20,31 @@ export default new Router({
     {
       path: '/home',
       name: 'Home',
-      component:Home
+      component:Home   
     },
     {
       path: '/discounts',
       name: 'Discounts',
       component: Discounts
     },
-    {
+     {
       path: '/buyphone',
       name: 'Buyphone',
-      component:Buyphone
+      component:Buyphone,
+      children:[
+        {name:"Zonghe",path:"zonghe",component:Zonghe},
+        {name:"Xiaoliang",path:"xiaoliang",component:Xiaoliang},
+        {name:"Jiage",path:"jiage",component:Jiage},
+        {name:"Shaixuan",path:"shaixuan",component:Shaixuan}
+      ]
     },
-    {
+     {
       path: '/my',
       name: 'My',
-      component: My
+      component: My,
+      meta:{
+        navShow:true,
+      }
     },
     {
       path: '/nav',

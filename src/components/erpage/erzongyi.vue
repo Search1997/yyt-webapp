@@ -5,7 +5,7 @@
   </div>
 </template>
 <script>
- import BottomBar from "../components/bottombar/bottombar";
+ import BottomBar from "../bottombar/bottombar";
   export default {
       components:{
           BottomBar

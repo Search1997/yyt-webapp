@@ -1,7 +1,7 @@
 <template>
   <div class="top">
      <div class="top-one">
-         优惠
+         买手机
      </div>
      <div class="top-two">
          139****2032 &nbsp;&nbsp;&nbsp;<span><img src="../../../static/home/i-5.png" alt=""></span>&nbsp;&nbsp;&nbsp;<span><a href=""><span>余额：54.49元</span> 去充值></a></span>

@@ -1,12 +1,10 @@
 <template>
   <div>
     <Top></Top>
-    <div class="on">
-   
+    <div class="on">  
     <div class="lunbo">
-
+      <Lbooa></Lbooa>
     </div>
-    
     <div class="item">
       <div v-for="(v,i) in arr" :key="i">
         <img :src="v.imgurl" />
@@ -18,7 +16,7 @@
       <img src="../../static/home/d.jpg" alt="">
     </div>
     <div class="xiang">
-      全家享
+      全家享 <button @click="go">你好</button>
     </div>
     <div class="but">
       <div class="but-q"><img src="../../static/nav/n-11.png" alt=""></div>
@@ -30,12 +28,19 @@
 </template>
 <script>
   import Top from "../components/bottombar/top";
+   import Lbooa from "../components/lunboo/lbooa";
   import BottomBar from "../components/bottombar/bottombar";
   export default {
       components:{
           BottomBar,
-          Top
-      },data(){
+          Top,
+          Lbooa
+      }, methods:{
+          go(){
+            this.$router.push('buyphone/zonghe')
+          }
+        },
+      data(){
         return{
           arr:[
             {
@@ -69,19 +74,19 @@
               title:"办号卡",imgurl:"../../static/home/c-5.png"
             }
           ]
-        }
+        }   
       }
   }
   
 </script>
 <style scoped>
      .on{
-      /*main绝对定位，进行内部滚动*/
+      /*on绝对定位，进行内部滚动*/
       position: absolute;
       /*top是头部的高度*/
       top: 80px;
       /*bottom是底部的高度*/
-      /* bottom: 30px;
+      bottom: 30px; 
       /*使之可以滚动*/
       overflow-y: scroll;
       /*增加弹性滚动,解决滚动不流畅的问题*/
