@@ -20,19 +20,19 @@
         return{
           arr:[
             {
-               title:"华为P30 8+64G/8+128G 移动版4G手机",titles:"￥3388",imgurl:"../../static/may/m-1.jpg"
+               title:"华为P30 8+64G/8+128G 移动版4G手机",titles:"￥3388",imgurl:"../../assets/may/m-1.jpg"
             },
              {
-               title:"华为畅享9s 4GB+128GB 移动版4G手机",tity:"领优惠下单立减200元",titles:"￥1299",imgurl:"../../static/may/m-2.jpg"
+               title:"华为畅享9s 4GB+128GB 移动版4G手机",tity:"领优惠下单立减200元",titles:"￥1299",imgurl:"../../assets/may/m-2.jpg"
             },
              {
-              title:"【双十一优惠】华为p30 Pro 移动版 4G智能手机",tity:"领优惠下单立减400元",titles:"￥1299",imgurl:"../../static/may/m-3.jpg"
+              title:"【双十一优惠】华为p30 Pro 移动版 4G智能手机",tity:"领优惠下单立减400元",titles:"￥1299",imgurl:"../../assets/may/m-3.jpg"
             },
              {
-              title:"【双十一优惠】小米9 8GB+128GB 移动版 4G智能手机",titles:"￥1299",imgurl:"../../static/may/m-4.jpg"
+              title:"【双十一优惠】小米9 8GB+128GB 移动版 4G智能手机",titles:"￥1299",imgurl:"../../assets/may/m-4.jpg"
             },
              {
-              title:"华为 畅享Max 4GB+128GB 移动版4G手机",titles:"￥1555",imgurl:"../../static/may/m-5.jpg"
+              title:"华为 畅享Max 4GB+128GB 移动版4G手机",titles:"￥1555",imgurl:"../../assets/may/m-5.jpg"
             }  
           ]
         }   

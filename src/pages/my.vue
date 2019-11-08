@@ -8,6 +8,8 @@
         <span>{{v.title}}</span>
       </div>
     </div>
+     <!-- <router-link to="/my/car">gouwuche</router-link>
+          <router-view></router-view> -->
       <BottomBar></BottomBar>
   </div>
 </template>
@@ -20,16 +22,16 @@
         return{
           arr:[
             {
-              title:"套餐余量",imgurl:"../../static/home/b-1.png"
+              title:"套餐余量",imgurl:require('../assets/home/b-1.png')
             },
              {
-              title:"账单查询",imgurl:"../../static/home/b-2.png"
+              title:"账单查询",imgurl:require('../assets/home/b-2.png')
             },
              {
-              title:"已定业务",imgurl:"../../static/home/b-3.png"
+              title:"已定业务",imgurl:require("../assets/home/b-3.png")
             },
              {
-              title:"充值订单",imgurl:"../../static/home/b-4.png"
+              title:"充值订单",imgurl:require("../assets/home/b-4.png")
             },          
           ]
         }

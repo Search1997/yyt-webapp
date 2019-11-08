@@ -16,7 +16,7 @@
 <style>
 @import 'vue-swipe/dist/vue-swipe.css';
 .my-swipe {
-  height: 120px;
+  height: 140px;
   color: #fff;
   font-size: 30px;
   text-align: center;
@@ -24,19 +24,19 @@
 
 .slide1 {
   background-image: url(../../../static/home/a-2.png);
-  background-size: 100%,120px;
+  background-size: 100%,140px;
   color: whitesmoke;
 }
 
 .slide2 {
  background-image: url(../../../static/home/a-3.jpg);
- background-size: 100%,120px;
-  color: #000;
+ background-size: 100%,140px;
+color: #000;
 }
 
 .slide3 {
   background-image: url(../../../static/home/a-4.jpg);
   color: whitesmoke;
-  background-size: 100%,120px;
+  background-size: 100%,140px;
 }
 </style>

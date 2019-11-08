@@ -15,34 +15,34 @@
         return{
          arr:[
             {
-              title:"话费充值",imgurl:"../../../static/home/b-1.png"
+              title:"话费充值",imgurl:"../../assets/home/b-1.png"
             },
              {
-              title:"流量充值",imgurl:"../../../static/home/b-2.png"
+              title:"流量充值",imgurl:"../../assets/home/b-2.png"
             },
              {
-              title:"账单查询",imgurl:"../../../static/home/b-3.png"
+              title:"账单查询",imgurl:"../../assets/home/b-3.png"
             },
              {
-              title:"套餐余量",imgurl:"../../../static/home/b-4.png"
+              title:"套餐余量",imgurl:"../../assets/home/b-4.png"
             },
              {
-              title:"已定业务",imgurl:"../../../static/home/b-5.png"
+              title:"已定业务",imgurl:"../../assets/home/b-5.png"
             },
              {
-              title:"国漫专区",imgurl:"../../../static/home/c-1.png"
+              title:"国漫专区",imgurl:"../../assets/home/c-1.png"
             },
              {
-              title:"5G专区",imgurl:"../../../static/home/c-2.png"
+              title:"5G专区",imgurl:"../../assets/home/c-2.png"
             },
              {
-              title:"买手机",imgurl:"../../../static/home/c-3.png"
+              title:"买手机",imgurl:"../../assets/home/c-3.png"
             },
              {
-              title:"办业务",imgurl:"../../../static/home/c-4.png"
+              title:"办业务",imgurl:"../../assets/home/c-4.png"
             },
              {
-              title:"办号卡",imgurl:"../../../static/home/c-5.png"
+              title:"办号卡",imgurl:"../../assets/home/c-5.png"
             }
           ]
         }

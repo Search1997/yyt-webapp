@@ -4,6 +4,7 @@ import Home from '../pages/home'
 import Discounts from '../pages/discounts'
 import My from '../pages/my'
 import Nav from '../pages/nav'
+// import Car from '../pages/car'
 import Erdianshi from '../components/erpage/erdianshi'
 import Erdianying from '../components/erpage/Erdianying'
 import Erzongyi from '../components/erpage/Erzongyi'
@@ -16,6 +17,7 @@ import Xiaoliang from '../components/elect/xiaoliang'
 Vue.use(Router)
 
 export default new Router({
+  base:'/ttms/',
   routes: [
     {
       path: '/home',
@@ -41,11 +43,8 @@ export default new Router({
      {
       path: '/my',
       name: 'My',
-      component: My,
-      meta:{
-        navShow:true,
-      }
-    },
+      component: My
+     },
     {
       path: '/nav',
       name: 'Nav',

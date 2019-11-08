@@ -23,13 +23,13 @@
         return{
           arr:[
             {
-              title:"任我看流量包来袭啦！",imgurl:"../../static/home/de-a.jpg"
+              title:"任我看流量包来袭啦！",imgurl:require("../assets/home/de-a.jpg")
             },
              {
-              title:"11月手机换新季",imgurl:"../../static/home/de-b.jpg"
+              title:"11月手机换新季",imgurl:require("../assets/home/de-b.jpg")
             },
              {
-              title:"免流畅玩哔哩哔哩，15G大流量仅需9元偶",imgurl:"../../static/home/de-c.jpg"
+              title:"免流畅玩哔哩哔哩，15G大流量仅需9元偶",imgurl:require("../assets/home/de-c.jpg")
             }
              
           ]

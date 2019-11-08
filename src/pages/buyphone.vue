@@ -51,11 +51,13 @@
        font-size: 0.16rem;
        flex: 1;
        text-align: center;
+       color: black;
+       text-decoration:none;
    }
    .topbar{
        width: 100%;
        display: flex;
        flex-direction: row;
-       background-color: aquamarine
+       background-color: #f2f2f2;     
    }
 </style>
