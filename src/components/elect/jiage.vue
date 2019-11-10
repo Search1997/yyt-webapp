@@ -20,19 +20,19 @@
         return{
           arr:[
             {
-               title:"【全额预售】三星Galaxy Fold 折叠屏 公开屏4G手机",titles:"￥15999",imgurl:"../../assets/may/j-1.jpg"
+               title:"【全额预售】三星Galaxy Fold 折叠屏 公开屏4G手机",titles:"￥15999",imgurl:require("../../assets/may/j-1.jpg")
             },
              {
-               title:"【双十一优惠】 iphone11Pro Max(A220)公开版",tity:"领优惠下单立减500元",titles:"￥9599",imgurl:"../../assets/may/j-2.jpg"
+               title:"【双十一优惠】 iphone11Pro Max(A220)公开版",tity:"领优惠下单立减500元",titles:"￥9599",imgurl:require("../../assets/may/j-2.jpg")
             },
              {
-              title:"iPhone11 Pro Max（A2220)双卡公开版4G手机",titles:"￥1299",imgurl:"../../assets/may/j-3.jpg"
+              title:"iPhone11 Pro Max（A2220)双卡公开版4G手机",titles:"￥1299",imgurl:require("../../assets/may/j-3.jpg")
             },
              {
-              title:"FlexPai柔派 RY12-6+128G 可折叠手机",titles:"￥8699",imgurl:"../../assets/may/j-4.jpg"
+              title:"FlexPai柔派 RY12-6+128G 可折叠手机",titles:"￥8699",imgurl:require("../../assets/may/j-4.jpg")
             },
              {
-              title:"三星Galaxy Note10+5G手机 12+256G公开版",tity:"领优惠下单立减500元",titles:"￥1555",imgurl:"../../assets/may/j-5.jpg"
+              title:"三星Galaxy Note10+5G手机 12+256G公开版",tity:"领优惠下单立减500元",titles:"￥1555",imgurl:require("../../assets/may/j-5.jpg")
             }  
           ]
         }   

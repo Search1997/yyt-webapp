@@ -19,11 +19,20 @@
       全家享 <button @click="go">买手机</button>
     </div>
     <Homea></Homea>
-     <div class="xiang" style="color:pink">
+     <div class="xiang" style="color:#FF4A7F">
       终端推荐
     </div>
     <Homec></Homec>
+     <div class="xiang" style="color:#9832FF">
+      业务推荐
     </div>
+    <Homey></Homey>
+     <div class="xiang" style="color:#23B3E9">
+      卡号推荐
+    </div>
+    <Homek></Homek>
+     <Bout></Bout>
+    </div> 
     <BottomBar></BottomBar>
   </div>
 </template>
@@ -32,15 +41,20 @@
   import Lbooa from "../components/lunboo/lbooa";
   import Homea from "../components/home/homea";
   import Homec from "../components/home/homec";
+  import Homey from "../components/home/homey";
+  import Homek from "../components/home/homek";
   import BottomBar from "../components/bottombar/bottombar";
-  
+  import Bout from "../components/bottombar/bout"
   export default {
       components:{
           BottomBar,
           Top,
           Lbooa,
           Homea,
-          Homec
+          Homec,
+          Homey,
+          Homek,
+          Bout
       }, methods:{
           go(){
             this.$router.push('buyphone/zonghe')
@@ -122,7 +136,6 @@
     .lunbo{
       width: 100%;
       height:1.4rem;
-      background-color: blueviolet;
     }
      .photo{
      width: 100%;
@@ -131,12 +144,12 @@
    }
    .photo img{
      width: 100%;
-     height: 65px;
+     height: 0.675rem;
      position:relative; 
      top:-0.3rem;
    }
    .xiang{
-     margin-top: 0.1rem;
+     margin-top: 0.01rem;
      width: 100%;
      height: 0.5rem;
      background-color: #f2f2f2;

@@ -38,28 +38,28 @@
       display:flex; 
       flex-direction: row;
       flex-wrap: wrap;
-      padding-left:0.1rem;  
+      padding-left:0.1rem; 
     }
     .itemv img{
       margin:0.1rem;
-      width: 0.95rem;
-      height: 1.05rem;
+      width: 1.39rem;
+      height: 1.14rem;
       padding: 0.03rem;
     }
     .itemv span{
       font-size: 0.14rem;
-      color: #666666;   
-     margin:0.34rem;
+      color: #E40077;   
+     margin:0.3rem;
+     padding-left:0.3rem;
     }
      .itemv p{
       font-size: 0.14rem;
-      color: #666666;  
-      margin-left:0.23rem;  
+      color: #333333;  
+      margin-left:0.53rem;  
       margin-top: 0.1rem;
     }
     .itemv>div{
       font-size: 0.16rem;
-      width:50%;
-         
+      width:50%;    
     }
    </style>

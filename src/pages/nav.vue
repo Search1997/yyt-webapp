@@ -17,6 +17,32 @@
      <span></span> 热门推荐
     </div>
     <Homed></Homed>
+    <div class="cen"></div>
+    <div class="re">
+     <span style=" background-color: yellow"></span> 办套餐
+    </div>
+    <navato></navato>
+    <div class="cen"></div>
+    <div class="re">
+     <span style=" background-color: green"></span> 买手机
+    </div>
+    <navabo></navabo>
+    <div class="cen"></div>
+    <div class="re">
+     <span style=" background-color: blue"></span> 办业务
+    </div>
+    <Yewu></Yewu>
+    <div class="cen"></div>
+    <div class="re">
+    <span style=" background-color: pink"></span> 选号码
+    </div>
+     <Haoma></Haoma>
+    <div class="cen"></div>
+    <div class="re">
+    <span style=" background-color: green"></span> 全家享
+    </div>
+     <Homea></Homea>
+      <Bout></Bout>
     </div>
       <BottomBar></BottomBar>
   </div>
@@ -25,11 +51,23 @@
  import Top from "../components/bottombar/top";
  import Homed from "../components/home/homed";
  import BottomBar from "../components/bottombar/bottombar";
-  export default {
+ import navato from "../components/nav/navato";
+ import navabo from "../components/nav/navabo";
+ import Yewu from "../components/nav/yewu";
+ import Haoma from "../components/nav/haoma";
+ import Homea from "../components/home/homea";
+ import Bout from "../components/bottombar/bout"
+export default {
       components:{
           Top,
           BottomBar,
-          Homed
+          Homed,
+          navato,
+          navabo,
+          Yewu,
+          Haoma,
+          Homea,
+          Bout
       }
   }
 </script>
@@ -68,9 +106,9 @@
      height: 1rem;
    }
    .cen{
-     height: 0.2rem;
+     height: 0.12rem;
      width: 100%;
-     background-color: aliceblue
+     background-color: whitesmoke
    }
    .re{
      width: 100%;

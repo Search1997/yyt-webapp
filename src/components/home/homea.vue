@@ -38,17 +38,20 @@
      background-color: white;
      font-size: 0.16rem;
      position: relative;
+     padding: 0.1rem;
    }
    .buts-q img{
-     width: 35%;
+     width: 36%;
      height: 0.6rem;
      position: relative;
      left: 0.4rem;
+     top:0.12rem;
    }
     .buts-a img{
-     width: 35%;
+     width: 36%;
      height: 0.6rem;
      position: relative;
      left: 0.3rem;
+      top:0.15rem;
    }
 </style>

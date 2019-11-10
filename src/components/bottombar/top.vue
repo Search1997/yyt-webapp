@@ -1,11 +1,11 @@
 <template>
-  <div class="top">
-     <div class="top-one">
-         <div class="top-one-a"><img src="../../../static/home/logo1.png" alt=""></div>
-         <span>兰州</span><div class="top-one-b"><img src="../../../static/home/i-5.png" alt=""></div>
-         <div class="top-one-c"><img src="../../../static/home/more.png" alt=""></div>
+  <div class="toppp">
+     <div class="toppp-one">
+         <div class="toppp-one-a"><img src="../../../static/home/logo1.png" alt=""></div>
+         <span>兰州</span><div class="toppp-one-b"><img src="../../../static/home/i-5.png" alt=""></div>
+         <div class="toppp-one-c"><img src="../../../static/home/more.png" alt=""></div>
      </div>
-     <div class="top-two">
+     <div class="toppp-two">
          139****2032 &nbsp;&nbsp;&nbsp;<span class="aa"><img src="../../../static/home/i-5.png" alt=""></span>&nbsp;&nbsp;&nbsp;<span class="cj"><a href=""><span>余额：54.49元</span>&nbsp;&nbsp;&nbsp; 去充值></a></span>
      </div>
   </div>
@@ -16,17 +16,20 @@
   }
 </script>
 <style scoped>
-.top{
+.toppp{
    width: 100%;
-   height: 0.9rem;
+   height: 2.3rem;
    position:fixed;
    top: 0px;
    font-size: 0.16rem;
+   background-color: white
 }
-.top-two{
+.toppp-two{
   font-size: 0.16rem;
+  height: 0.9rem;
+  background-color: white
 }
-.top-one{
+.toppp-one{
    display: flex;
    flex-direction:row;
    width: 100%; 
@@ -34,38 +37,38 @@
    background-color: #f2f2f2;
    position: relative;
 }
-.top-one span{
+.toppp-one span{
    position: relative;
    top:0.12rem;
    left: -0.8rem;
    font-size: 0.14rem;
 }
-.top-one-a img{
+.toppp-one-a img{
    width: 45%;
    height: 0.22rem;
    padding: 0.1rem;
 }
-.top-one-b{
+.toppp-one-b{
     position: relative;   
 }
-.top-one-b img{
+.toppp-one-b img{
  width: 70%;
  height: 0.09rem;
  position: relative; 
  top:0.12rem;
  left:-0.75rem;
 }
-.top-one-c{
+.toppp-one-c{
     position: relative; 
 }
-.top-one-c img{
+.toppp-one-c img{
  width: 70%;
  height: 0.14rem;
  position: relative; 
  top:0.12rem;
  left:0.2rem;
 }
-.top-two{
+.toppp-two{
   font-size: 0.14rem; 
   width: 100%;
   height: 0.3rem;
@@ -83,6 +86,8 @@
 .cj a{
   text-decoration:none;
    color: red;
+   position: relative;
+   top:-0.1rem;
 
 }
 .cj span{

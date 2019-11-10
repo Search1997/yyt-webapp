@@ -46,7 +46,8 @@
 .cj a{
   text-decoration:none;
    color: red;
-
+   position: relative;
+   top:-0.1rem;
 }
 .cj span{
  color:black;

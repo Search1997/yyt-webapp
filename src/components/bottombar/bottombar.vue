@@ -1,6 +1,6 @@
 <template>
   <div class="bottombar">
-     <router-link to="/home"> home </router-link>
+     <router-link to="/home">home </router-link>
      <router-link to="/nav/erdianshi"> nav </router-link>
      <router-link to="/discounts"> discounts </router-link>
      <router-link to="/my"> my</router-link>

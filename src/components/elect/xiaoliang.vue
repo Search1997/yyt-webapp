@@ -20,19 +20,19 @@
         return{
           arr:[
             {
-               title:"iphone11 (A2223)双卡公开4G手机",titles:"￥5399",imgurl:"../../assets/may/x-1.jpg"
+               title:"iphone11 (A2223)双卡公开4G手机",titles:"￥5399",imgurl:require("../../assets/may/x-1.jpg")
             },
              {
-               title:"iphone11 Pro Max(A2220)双卡公开4G手机",titles:"￥9499",imgurl:"../../assets/may/x-2.jpg"
+               title:"iphone11 Pro Max(A2220)双卡公开4G手机",titles:"￥9499",imgurl:require("../../assets/may/x-2.jpg")
             },
              {
-              title:"vivo iQOO Pro 5G版全网通智能手机",tity:"购机享大礼包",titles:"￥3698",imgurl:"../../assets/may/x-3.jpg"
+              title:"vivo iQOO Pro 5G版全网通智能手机",tity:"购机享大礼包",titles:"￥3698",imgurl:require("../../assets/may/x-3.jpg")
             },
              {
-              title:"华为Mate20 X5G版 256G公共版智能手机",titles:"￥6398",imgurl:"../../assets/may/x-4.jpg"
+              title:"华为Mate20 X5G版 256G公共版智能手机",titles:"￥6398",imgurl:require("../../assets/may/x-4.jpg")
             },
              {
-              title:"华为 P30 8+64GB/8+128G 移动版4G手机",titles:"￥3388",imgurl:"../../assets/may/x-5.jpg"
+              title:"华为 P30 8+64GB/8+128G 移动版4G手机",titles:"￥3388",imgurl:require("../../assets/may/x-5.jpg")
             }  
           ]
         }   
