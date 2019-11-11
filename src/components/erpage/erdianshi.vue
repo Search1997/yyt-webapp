@@ -1,6 +1,8 @@
 <template>
   <div>  
-     <Lbooa></Lbooa>
+      <div class="lunbo">
+      <Lbooa></Lbooa>
+    </div>
     <div class="item">
       <div v-for="(v,i) in arr" :key="i">
         <img v-bind:src="v.imgurl" />
@@ -70,5 +72,9 @@
     .item>div{
       font-size: 0px;
       width:25%;
+    }
+      .lunbo{
+      width: 100%;
+      height:1.4rem;
     }
 </style>

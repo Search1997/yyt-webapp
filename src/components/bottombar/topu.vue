@@ -45,9 +45,10 @@
 }
 .cj a{
   text-decoration:none;
-   color: red;
+   color: skyblue;
    position: relative;
    top:-0.1rem;
+   font-size: 0.12rem;
 }
 .cj span{
  color:black;

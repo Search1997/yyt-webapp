@@ -76,7 +76,7 @@ export default {
      /*main绝对定位，进行内部滚动*/
       position: absolute;
       /*top是头部的高度*/
-      top: 80px;
+      top: 95px;
       /*bottom是底部的高度*/
       bottom: 30px;
       /*使之可以滚动*/

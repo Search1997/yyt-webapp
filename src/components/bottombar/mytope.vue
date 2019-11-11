@@ -20,5 +20,8 @@
       padding-left: 0.3rem;
       text-align: center;
       background-color: aliceblue;
-   }  
+   }
+   .mytopdaa img{ 
+     width: 90%;
+   } 
 </style>

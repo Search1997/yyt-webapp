@@ -16,7 +16,7 @@
       <img src="../../static/home/d.jpg" alt="">
     </div>
     <div class="xiang">
-      全家享 <button @click="go">买手机</button>
+      全家享 <button class="psds" @click="go">买手机</button>
     </div>
     <Homea></Homea>
      <div class="xiang" style="color:#FF4A7F">
@@ -105,7 +105,7 @@
       /*on绝对定位，进行内部滚动*/
       position: absolute;
       /*top是头部的高度*/
-      top: 80px;
+      top: 95px;
       /*bottom是底部的高度*/
       bottom: 30px; 
       /*使之可以滚动*/
@@ -157,6 +157,15 @@
      color:#85CF22;
      text-align: center;
      line-height: 0.5rem;
+     position: relative;
+   }
+   .psds{
+     position: relative;
+     top:-1.02rem;
+     left:-0.36rem;
+     background-color: white;
+     border: none;
+     font-size: 0.14rem;
    }
 </style>
 

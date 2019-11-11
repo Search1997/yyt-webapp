@@ -13,7 +13,7 @@
 <style>
    .mytopdaa{ 
      margin:  0.1rem auto;
-     width:85%;
+     width:98%;
       height: 0.5rem;
       font-size:0.14rem;
       padding-top: 0.1rem;
